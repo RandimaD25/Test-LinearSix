@@ -1,0 +1,9 @@
+I couldn't use TRY_SQL which I was originally instructed to use for the test editor because of this error.
+
+"Error in SQL:
+Cannot modify the design of table 'group1'. It is in a read-only database.
+Note: Your browser does not support WebSQL, so you are now using a light-version of our Try-SQL Editor, with a read-only Database."
+
+When I searched about this error I got to know that this error occurs because I was using a read-only database in a SQL editor that doesn't fully support WebSQL. This typically happens in online SQL learning environments or demo databases where modifications are intentionally restricted.
+
+Because of this error I used the SQSFiddle. (https://sqlfiddle.com/mysql/online-compiler)
